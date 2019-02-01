@@ -1,0 +1,175 @@
+
+
+body { 
+	font:8pt verdana; 
+	//background: #520B00;
+	background-image:url("crime.png") ;
+	margin:0;
+	padding:0;
+	}
+.style5 {color: #003366}
+.style6 {
+	font-size: 8px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.style8{font-size: 35px;color: white}
+
+
+#navcontainer { width: 120px; }
+
+#navlist
+{
+padding: 1px;
+margin-left: 0;
+font: 11px verdana, sans-serif;
+width: 14em;
+color: gray; 
+border-right:8px solid #FFFFFF;}
+
+#navlist li
+{
+list-style: none;
+margin: 0px;
+border-left: 0px #004080 solid;
+border-bottom: 1px #9C3D00 solid;
+text-align: left;
+}
+
+#navlist li a
+{
+display: block;
+padding: 0.7em 0.5em 0.7em 0.9em;
+text-decoration: none;
+}
+
+#navlist li a:link { color: #000; }
+#navlist li a:visited { color: #006; }
+
+#navlist li a:hover
+{
+font-weight:none;
+text-align: right;
+color: #FFFFFF;
+background: #9C3D00; //#9C3D00
+border-left: 8px #9C3D00 solid;
+}
+
+h1 {
+
+	font:28pt verdana, arial, sans-serif;
+	color:#666;
+	margin:0;
+	padding:20px;
+}
+
+h2 {
+
+	font:14pt verdana, arial, sans-serif;
+	color:#666;
+	padding:10px;
+	margin:0;
+        text-align: center;
+}
+
+h3 {
+
+	font:14pt verdana, arial, sans-serif;
+	color:#666;
+	padding:5px;
+	margin:0;
+        text-align: left;
+}
+
+h4 {
+
+	font:19pt verdana, arial, sans-serif;
+	color:#666;
+	padding:5px;
+	margin:0;
+        text-align: left;
+}
+
+
+
+p { 
+	font: 12pt verdana; 
+	margin: 0px; 
+	text-align: justify;
+	}
+	
+#contain {
+
+	width:70%;
+	border-right:1px solid #FFFFFF;
+	border-left:1px solid #FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	background: #FFFFFF;//#FFF
+        }
+	
+#header {
+	//border-top:8px solid grey;
+        background:url("Slide1.jpg") left;
+	width:100%;
+        height:165px;
+	align:center;
+	border-bottom:8px solid #520B00;
+	
+}
+
+#leftcol {
+
+	width:150px;
+	float:left;
+	padding:5px 0 5px 5;
+	background-color: #fff;
+	border-right:5px solid #FFFFFF;
+
+}
+
+#leftcol p {
+
+	padding:3px 18px 3px 1px;
+	margin:0;
+
+}
+
+#content {
+
+	margin-left:190px;
+	width:75%
+
+}
+
+#content p {
+
+	padding:3px 18px 3px 1px;
+	margin:0;
+
+}
+
+#footer {
+
+	width:100%;
+	clear:left;
+
+	background: #520B00;
+	padding: 3px 0 3px 0;
+
+}
+
+#footer p {
+	text-align:center;
+	padding-right:8px;
+	font:8pt verdana, arial, sans-serif;
+        
+}
+
+
+#leftImg
+{
+float:center;
+padding: 0 0px 0px 0;
+}
